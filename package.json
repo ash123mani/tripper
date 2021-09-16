@@ -1,0 +1,53 @@
+{
+  "name": "tripper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.config.ts",
+    "build": "webpack --config webpack.prod.config.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/runtime": "^7.15.4",
+    "@types/enzyme": "^3.10.9",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/fork-ts-checker-webpack-plugin": "^0.4.5",
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@types/webpack-dev-server": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-webpack-plugin": "^3.0.1",
+    "fork-ts-checker-webpack-plugin": "^6.3.3",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.2.0",
+    "react-test-renderer": "^17.0.2",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}
