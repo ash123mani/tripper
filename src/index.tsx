@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// const unused = "something";
+import './_index.scss'
 
 const App = () => (
-  <h1>Myss React and TypeScript App!</h1>
+  <h1 className="app">Myss React and TypeScript App!</h1>
 );
 
 ReactDOM.render(
